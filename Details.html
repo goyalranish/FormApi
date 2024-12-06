@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details Form</title>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="formScript.js"></script>
+</head>
+<body>
+    <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="courseSelect">Course:</label>
+        <input type="text" id="courseSelect" name="courseSelect" required><br><br>
+
+        <label for="degreeSelect">Degree:</label>
+        <select id="degreeSelect" name="degreeSelect" required></select><br><br>
+
+        <label for="yearSelect">Year:</label>
+        <input type="number" id="yearSelect" name="yearSelect" required><br><br>
+
+        <label for="semesterSelect">Semester:</label>
+        <input type="number" id="semesterSelect" name="semesterSelect" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="response"></div>
+</body>
+</html>
